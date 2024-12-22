@@ -1,0 +1,18 @@
+<idea-plugin>
+    <id>org.example.demo1</id>
+    <name>MemePlugin</name>
+    <description>Plays a meme when hotkey is pressedddddddddddd</description>
+    <version>1.0</version>
+    <vendor>Your Name</vendor>
+
+    <actions>
+        <action
+
+                id="ShowMemeAction"
+                class="org.example.demo1.ShowMemeAction"
+                text="Show Meme"
+                description="Shows a meme when activated">
+                <keyboard-shortcut first-keystroke="control alt G" second-keystroke="C" keymap="$default"/>
+        </action>
+    </actions>
+</idea-plugin>
